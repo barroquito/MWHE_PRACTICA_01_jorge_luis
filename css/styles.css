@@ -5,9 +5,36 @@
 }
 
 h1 {
-    margin-bottom: 20%;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+a > h5{
+    font-family: 'Dela Gothic One', sans-serif;
+    text-decoration: none; 
+    color: aliceblue;
+    font-size: 4em;
+    padding-bottom: 1em
+}
+.carousel-caption > h1{
+    font-size: 7em;
+    padding-bottom: 1em;
+   
+}
+.carousel-caption > p{
     font-size: 3em;
-    font-family: 'Dela Gothic One', sans-serif;}
+    font-family: 'Dela Gothic One', sans-serif;
+}
+.carousel-caption > h5{
+    font-size: 7em;
+    padding-bottom: 1em;
+   
+}
+.carousel-caption > h5{
+    font-size: 4em;
+    padding-bottom: 1em;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+    
 
 .carousel-item:before {
     content: '';
@@ -19,3 +46,16 @@ h1 {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
+.carousel-item {
+    /* Ancho deseado del contenedor */
+    height: 100vh; /* Altura deseada del contenedor */
+   
+    overflow: hidden; /* Para recortar la imagen si es más grande que el contenedor */
+}
+
+/* Estilo de la imagen */
+.carousel-item img {
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción original de la imagen */
+    display: block; /* Elimina el espacio adicional por debajo de la imagen */
+}
