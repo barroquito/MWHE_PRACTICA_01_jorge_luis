@@ -5,8 +5,13 @@
     background-color: black;
 }
 
+body{
+    background-color: black;
+}
+
 header{
     padding: 30px;   
+    margin-bottom: 7.5%;
 }
 
 .section_title{
@@ -19,6 +24,7 @@ header{
 .section_title:hover {
     background-color: white;
     color: black;
+    cursor: default;
 }
 
 .accordion{
@@ -32,15 +38,16 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
     font-weight: 100;
+    transition: ease-in 0.10s;
+}
+
+.accordion-button:hover{
+    font-size: 1.7em;
 }
 
 .accordion-button:not(.collapsed) {
     background-color: #ffffff;
     color: black;
-}
-
-.accordion-button:focus {
-    border-color: rgb(97, 97, 97);
 }
 
 #gallery {
@@ -54,11 +61,13 @@ header{
     padding: 4px;
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 
 #gallery .column img {
-    margin-top: 8px;
-    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 90%;
     height: auto;
 }
 
