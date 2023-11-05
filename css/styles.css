@@ -7,15 +7,20 @@
 h1 {
     font-family: 'Dela Gothic One', sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+
 a > h5{
     font-family: 'Dela Gothic One', sans-serif;
     text-decoration: none; 
     color: aliceblue;
-    font-size: 4em;
+    font-size: 7em;
     padding-bottom: 1em
 }
 .carousel-caption > h1{
-    font-size: 7em;
+    font-size: 10em;
     padding-bottom: 1em;
    
 }
@@ -23,11 +28,7 @@ a > h5{
     font-size: 3em;
     font-family: 'Dela Gothic One', sans-serif;
 }
-.carousel-caption > h5{
-    font-size: 7em;
-    padding-bottom: 1em;
-   
-}
+
 .carousel-caption > h5{
     font-size: 4em;
     padding-bottom: 1em;
