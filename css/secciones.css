@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    padding: 30px;   
+    margin-bottom: 7.5%;
+}
+
+.section_title{
+    color: #ffffff;
+    font-size: 10em;
+    font-weight: 900;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.section_title:hover {
+    background-color: white;
+    color: black;
+    cursor: default;
+}
+
+.accordion{
+    background-color: black;    
+}
+
+.accordion-button {
+    padding: 50px;
+    color: #ffffff;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    transition: ease-in 0.10s;
+}
+
+.accordion-button:hover{
+    font-size: 1.55em;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    color: black;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+}
+
+#gallery .column { 
+    flex: 25%;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#gallery .column img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 90%;
+    height: auto;
+    filter: grayscale(1);
+    transition: 0.10s;
+}
+
+#gallery .column img:hover {
+    filter: none;
+}
+
