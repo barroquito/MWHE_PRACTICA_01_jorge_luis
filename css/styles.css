@@ -15,18 +15,32 @@ a{
 a > h5{
     font-family: 'Dela Gothic One', sans-serif;
     text-decoration: none; 
-    color: aliceblue;
-    font-size: 7em;
-    padding-bottom: 1em
+    color: rgb(255, 255, 255);
+    font-size: 5em;
+    margin-bottom: 2em;
+    text-align: center;
 }
+
+a > h5:hover{
+    background-color: white;
+    color: black;
+}
+
 .carousel-caption > h1{
-    font-size: 10em;
-    padding-bottom: 1em;
-   
+    font-size: 7.25em;
+    margin-bottom: 2em;
+    text-align: center;
 }
+
+.carousel-caption > h1:hover{
+    background-color: white;
+    color: black;
+}
+
 .carousel-caption > p{
     font-size: 3em;
-    font-family: 'Dela Gothic One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .carousel-caption > h5{
