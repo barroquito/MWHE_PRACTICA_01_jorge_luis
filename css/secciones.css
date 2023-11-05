@@ -42,7 +42,7 @@ header{
 }
 
 .accordion-button:hover{
-    font-size: 1.7em;
+    font-size: 1.55em;
 }
 
 .accordion-button:not(.collapsed) {
@@ -69,9 +69,11 @@ header{
     margin-bottom: 25px;
     width: 90%;
     height: auto;
+    filter: grayscale(1);
+    transition: 0.10s;
 }
 
 #gallery .column img:hover {
-    filter: blur(2px);
+    filter: none;
 }
 
