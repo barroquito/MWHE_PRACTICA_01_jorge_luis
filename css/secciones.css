@@ -17,7 +17,6 @@ header{
 .section_title{
     color: #ffffff;
     font-size: 10em;
-    font-weight: 900;
     font-family: 'Dela Gothic One', sans-serif;
 }
 
@@ -26,6 +25,12 @@ header{
     color: black;
     cursor: default;
 }
+
+.contenido {
+    padding: 0 2.5%;
+}
+
+/* CONTENIDO ACORDEÓN */
 
 .accordion{
     background-color: black;    
@@ -36,8 +41,8 @@ header{
     color: #ffffff;
     background-color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.25em;
-    font-weight: 300;
+    font-size: 35px;
+    font-weight: 400;
     transition: 0s;
 }
 
@@ -78,3 +83,17 @@ header{
     filter: none;
 }
 
+/* FORMULARIO */
+
+.form-label {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.form-control {
+    border-radius: 0;
+    width: 40%;
+    margin-bottom: 2.5%;
+}
