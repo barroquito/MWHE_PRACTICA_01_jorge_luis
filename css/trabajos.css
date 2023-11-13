@@ -2,11 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #222d3b;
 }
 
 body{
-    background-color: black;
+    background-color: #222d3b;
 }
 
 header{
@@ -22,7 +22,7 @@ header{
 
 .section_title:hover {
     background-color: white;
-    color: black;
+    color: #222d3b;
     cursor: default;
 }
 
@@ -33,27 +33,27 @@ header{
 /* CONTENIDO ACORDEÓN */
 
 .accordion{
-    background-color: black;    
+    background-color: #222d3b;    
 }
 
 .accordion-button {
     padding: 50px;
     color: #ffffff;
-    background-color: black;
+    background-color: #222d3b;
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 800;
     transition: 0s;
 }
 
 .accordion-button:hover{
     background-color: white;
-    color: black;
+    color: #222d3b;
 }
 
 .accordion-button:not(.collapsed) {
     background-color: #ffffff;
-    color: black;
+    color: #222d3b;
 }
 
 #gallery {
@@ -83,17 +83,18 @@ header{
     filter: none;
 }
 
-/* FORMULARIO */
-
-.form-label {
-    color: white;
+.btn {
+    margin-top: 5%;
+    width: 100px;
+    height: 60px;
+    border-radius: 0px;
+    border: solid 4px white;
+    transition: 0s;
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 700;
 }
 
-.form-control {
-    border-radius: 0;
-    width: 40%;
-    margin-bottom: 2.5%;
+.btn:hover {
+    color: #222d3b;
 }
