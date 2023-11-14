@@ -70,7 +70,8 @@ a > h5:hover{
 
 /* Estilo de la imagen */
 .carousel-item img {
-    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
-    height: auto; /* Altura automática para mantener la proporción original de la imagen */
+    height: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    width: auto; /* Altura automática para mantener la proporción original de la imagen */
     display: block; /* Elimina el espacio adicional por debajo de la imagen */
+    overflow: hidden;
 }
