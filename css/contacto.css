@@ -81,7 +81,7 @@ header{
 }
 
 .form-1 {
-    margin-top: 20%;
+    margin-top: 2.5%;
 }
 
 .form-control {
@@ -91,7 +91,7 @@ header{
 }
 
 .btn {
-    margin-top: 5%;
+    margin: 5% 0%;
     width: 100px;
     height: 60px;
     border-radius: 0px;
@@ -104,4 +104,15 @@ header{
 
 .btn:hover {
     color: #c25f38;
+}
+
+
+.rrss {
+    height: 10%;
+    display: flex;
+}
+
+.fa-brands {
+    height: 70px;
+    width: auto;
 }
