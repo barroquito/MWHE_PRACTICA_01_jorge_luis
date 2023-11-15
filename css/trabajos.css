@@ -110,3 +110,31 @@ header{
 .btn:hover {
     color: #222d3b;
 }
+
+/* FOOTER */
+
+.rrss ul {
+    height: 10%;
+    margin-top: 12.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.rrss ul li {
+    height: 70px;
+    width: 70px;
+    margin: 0 2.5%;
+}
+
+.rrss a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen {
+    
+}
+
+
