@@ -74,3 +74,81 @@ a > h5:hover{
     display: block; /* Elimina el espacio adicional por debajo de la imagen */
     overflow: hidden;
 }
+
+@media screen and (max-width: 1520px){
+    .carousel-caption > h1{
+        font-size: 6em;
+        margin-bottom: 40%;
+    }
+}
+
+@media screen and (max-width: 1260px){
+    .carousel-caption > h1{
+        font-size: 5em;
+        
+    }
+
+    a > h5{
+        font-size: 4em;
+    }
+    .carousel-caption > p {
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .carousel-caption > h1{
+        font-size: 4em;
+        
+    }
+    a > h5{
+        font-size: 3.5em;
+        margin-bottom: 25%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    a > h5{
+        font-size: 3em;
+    }
+    .carousel-caption > h1{
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 730px){
+    a > h5{
+        font-size: 2.5em;
+    }
+    .carousel-caption > h1{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 630px){
+    a > h5{
+        font-size: 2em;
+    }
+    .carousel-caption > h1{
+        font-size: 2.5em;
+        margin-bottom: 50%;
+    }
+    .carousel-caption > p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 530px){
+    a > h5{
+        font-size: 1.75em;
+        margin-bottom: 60%;
+    }
+    .carousel-caption > h1{
+        font-size: 2em;
+        margin-bottom: 90%;
+    }
+    .carousel-caption > p {
+        font-size: 0.75em;
+    }
+}
+
