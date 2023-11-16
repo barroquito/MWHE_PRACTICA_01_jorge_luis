@@ -68,13 +68,13 @@ header{
     color: #222d3b;
 }
 
-#gallery {
+.gallery {
     display: flex;
     flex-wrap: wrap;
     padding: 0 8px;
 }
 
-#gallery .column { 
+.gallery .column { 
     flex: 25%;
     padding: 4px;
     display: flex;
@@ -82,7 +82,7 @@ header{
     align-content: center;
 }
 
-#gallery .column img {
+.gallery .column img {
     margin-top: 25px;
     margin-bottom: 25px;
     width: 90%;
@@ -91,7 +91,7 @@ header{
     transition: 0.10s;
 }
 
-#gallery .column img:hover {
+.gallery .column img:hover {
     filter: none;
 }
 
@@ -155,7 +155,7 @@ header{
 }
 
 @media screen and (max-width: 550px) {
-    #gallery .column { 
+    .gallery .column { 
         flex: 50%;
     }
     .accordion-button {
@@ -184,7 +184,7 @@ header{
         padding: 20px;
         font-size: 17px;
     }
-    #gallery .column { 
+    .gallery .column { 
         flex: 100%;
     }
 }
