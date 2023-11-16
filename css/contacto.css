@@ -127,3 +127,38 @@ header{
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 1280px) {
+    .section_title{
+        font-size: 8em;
+    }
+
+    #int p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .section_title{
+        font-size: 6em;
+    }
+
+    #int p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section_title{
+        font-size: 6em;
+    }
+
+    #int p {
+        font-size: 12px;
+    }
+
+    .form-label {
+        font-size: 27px;
+    }
+}
+
