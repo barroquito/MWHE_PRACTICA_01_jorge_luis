@@ -64,7 +64,6 @@ a > h5:hover{
 .carousel-item {
     /* Ancho deseado del contenedor */
     height: 100vh; /* Altura deseada del contenedor */
-   
     overflow: hidden; /* Para recortar la imagen si es más grande que el contenedor */
 }
 

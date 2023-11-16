@@ -11,7 +11,7 @@ body{
 
 header{
     padding: 30px;
-    margin-bottom: 7.5%;
+    margin-bottom: 2.5%;
 }
 
 .section_title{
@@ -28,6 +28,18 @@ header{
 
 .contenido {
     padding: 0 2.5%;
+}
+
+.exp-txt {
+    margin-bottom: 7.5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.exp-txt p:hover {
+    font-weight: 600;
 }
 
 /* CONTENIDO ACORDEÓN */
@@ -98,3 +110,75 @@ header{
 .btn:hover {
     color: #222d3b;
 }
+
+/* FOOTER */
+
+.rrss ul {
+    height: 10%;
+    margin-top: 7.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.rrss ul li {
+    height: 70px;
+    width: 70px;
+    margin: 0 2.5%;
+}
+
+.rrss a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1280px) {
+    .section_title{
+        font-size: 8em;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .section_title{
+        font-size: 6em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section_title{
+        font-size: 4em;
+    }
+    .exp-txt{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #gallery .column { 
+        flex: 50%;
+    }
+    .accordion-button {
+        padding: 40px;
+        font-size: 30px;
+    }
+    .rrss ul {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section_title{
+        font-size: 2.4em;
+    }
+    .exp-txt{
+        font-size: 10px;
+    }
+    .accordion-button {
+        padding: 30px;
+        font-size: 20px;
+    }
+}
+
+
+
