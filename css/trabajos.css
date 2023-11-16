@@ -163,7 +163,13 @@ header{
         font-size: 30px;
     }
     .rrss ul {
-        margin-top: 15%;
+        margin-top: 25%;
+    }
+    .contenido{
+        margin: 0 7.5%;
+    }
+    .btn {
+        margin-top: 10%;
     }
 }
 
@@ -175,8 +181,11 @@ header{
         font-size: 10px;
     }
     .accordion-button {
-        padding: 30px;
-        font-size: 20px;
+        padding: 20px;
+        font-size: 17px;
+    }
+    #gallery .column { 
+        flex: 100%;
     }
 }
 
